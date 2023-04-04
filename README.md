@@ -1,6 +1,6 @@
 # Scylla DB Driver
 
-A modern, lightweight, and easy to use driver for Scylla DB.
+A modern, lightweight, and easy to use Node.js driver for Scylla DB.
 
 ## Installation
 
