@@ -1,0 +1,5 @@
+# remove node modules
+node_modules
+
+# remove npm lock file
+*-lock.json
