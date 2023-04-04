@@ -3,3 +3,6 @@ node_modules
 
 # remove npm lock file
 *-lock.json
+
+# remove auto generated lib files
+lib

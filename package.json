@@ -9,10 +9,10 @@
   "main": "./lib/cjs/index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/expressots/scylladb-driver"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/expressots/scylladb-driver/issues"
   },
   "homepage": "",
   "publishConfig": {
@@ -37,6 +37,8 @@
     "build": "npm run clean && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc -p tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
     "build:cjs": "tsc -p tsconfig.cjs.json",
+    "dry:run": "npm publish --dry-run",
+    "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
